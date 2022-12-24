@@ -31,7 +31,7 @@ const Header = () => {
                 <ul>
                     {
                         nav_links.map((item)=>{
-                        <li className='item'>
+                        return <li className='item'>
                             <a href={item.path}>{item.display}</a>
                         </li>
                         })
